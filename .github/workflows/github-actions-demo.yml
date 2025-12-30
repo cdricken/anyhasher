@@ -6,7 +6,5 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run: cd backend
-      - run: npm ci
-      - run: npm run build
-      - run: echo "Backend compiled successfully!"
+      - run: cd backend && npm ci
+      - run: cd backend && npm run build
