@@ -9,3 +9,4 @@ jobs:
       - run: cd backend
       - run: npm ci
       - run: npm run build
+      - run: echo "Backend compiled successfully!"
